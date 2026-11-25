@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments | St. Kennely Funeral Homes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a class="brand" href="index.html">
+        <div class="logo"><img src="image/add a headingS_20260909_075535_0000.png" alt="Business Logo"></div>
+        <span>ST. KENNELY<br>FUNERAL HOMES</span>
+    </a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="login.html">Login</a>
+        <a href="services.html">Services</a>
+        <a href="video.html">Video</a>
+        <a href="comments.html">Comments</a>
+        <a href="booking.html">Booking</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Comments and Feedback</h1>
+    <p>We welcome feedback about your experience with our services.</p>
+
+    <div class="grid">
+        <div class="card">
+            <blockquote>
+                The staff treated our family with kindness and respect.
+            </blockquote>
+            <p><strong>Sample Family Feedback</strong></p>
+        </div>
+
+        <div class="card">
+            <blockquote>
+                The arrangements were explained clearly and respectfully.
+            </blockquote>
+            <p><strong>Sample Family Feedback</strong></p>
+        </div>
+    </div>
+
+    <h2 style="margin-top:30px;">Leave Your Comment</h2>
+
+    <form action="comments.html" method="get">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email">
+
+        <label for="comment">Your Comment</label>
+        <textarea id="comment" name="comment"
+                  placeholder="Write your feedback here" required></textarea>
+
+        <button type="submit">Submit Comment</button>
+        <button type="reset" class="secondary">Clear</button>
+    </form>
+
+    <div class="notice">
+        Comments are not saved in this demonstration.
+        A server is needed to store submitted feedback.
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p>St. Kennely Funeral Homes</p>
+    <p>Thank you for your feedback.</p>
+</footer>
+
+</body>
+</html>
